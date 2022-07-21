@@ -15,8 +15,8 @@ runs-on: ubuntu-latest
 steps:
 - name: Checkout #takes repository $GITHUB_WORKSPACE to give the open permission
 uses: actions/checkout@v3
--name: Setup Python #Python download
-uses: actions/setup-python@v4.0.0
-with:
+#-name: Setup Python #Python download
+#uses: actions/setup-python@v4.0.0
+#with:
 cache: pip
-python-version: '3.7'
+#python-version: '3.7'
