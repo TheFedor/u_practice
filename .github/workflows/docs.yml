@@ -9,6 +9,7 @@ concurrency:
   group: docs-${{ github.ref }}
   cancel-in-progress: true
 
+workflow_dispatch:
 
 jobs:
   generate-docs:
