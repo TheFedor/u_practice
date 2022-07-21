@@ -19,7 +19,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
       - name: Install NB
-        run: Install nbconvert
+        run: git install nbconvert
       - name: Exeute Notebook
         run: jupyter-nbconvert --execute --to html summer_un_pr.ipynb
       - name: Upload a Build Artifact
