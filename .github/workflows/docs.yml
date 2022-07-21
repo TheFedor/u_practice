@@ -9,6 +9,7 @@ concurrency:
   group: docs-${{ github.ref }}
   cancel-in-progress: true
 
+
 jobs:
   generate-docs:
     runs-on: ubuntu-latest
